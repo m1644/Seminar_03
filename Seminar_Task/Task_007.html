@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Задача №7 (Ввести возраст, вывести ответ).</p>
+    
+    <!-- <script>     
+        let age = prompt("Введите Ваш возраст:");
+        age = parseInt(age);
+        if (age == 18) {
+            alert ("Вы совершеннолетний, всё можно)");
+        } else if (age == 10) {
+            alert ("Вам надо учить уроки!");
+        } else if (age == 30) {
+            alert ("Ложитесь спать, завтра на работу.");
+        } else {
+            alert ("Мы не знаем, что Вам делать(");
+        }
+    </script> -->
+
+    <script>
+        let age = prompt("Введите Ваш возраст:");
+        age = parseInt(age);
+        switch (age) {
+            case 18:
+                alert("Вы совершеннолетний, всё можно)");
+                break;
+            case 10:
+                alert("Вам надо учить уроки!");
+                break;
+            case 30:
+                alert("Ложитесь спать, завтра на работу.");
+                break;
+            default:
+                alert ("Мы не знаем, что Вам делать(");                
+        }
+    </script>
+</body>
+</html>
